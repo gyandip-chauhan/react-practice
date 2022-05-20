@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.mainDiv{
+  background-color: #0057b7;
+  min-height: 1vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(2px + 2vmin);
+  color: #ffd700;
+}
+
+.mainDiv button{
+  cursor: pointer;
+}

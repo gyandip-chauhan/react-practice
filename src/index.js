@@ -14,20 +14,6 @@ rootHeader.render(
   </React.StrictMode>
 );
 
-const displayCurrentTime = ReactDOM.createRoot(document.getElementById('displayCurrentTime'))
-
-function tick() {
-  // <h2>Current Time is new Date().toLocaleTimeString('en-US', { timeZone: 'America/New_York' })}.</h2>
-  const element = (
-    <div className="currentTime">
-      <h2>Current Time is {new Date().toLocaleTimeString()}.</h2>
-    </div>
-  );
-  displayCurrentTime.render(element);
-}
-
-setInterval(tick, 1000);
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
